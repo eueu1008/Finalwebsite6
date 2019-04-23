@@ -1,0 +1,307 @@
+.bigauto img {
+   position: center;
+	overflow: visible;
+}
+
+* {
+  margin: auto;
+}
+
+li {
+  display: inline-block;
+  transition: ease-out 0.5s;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  padding: 55px;
+  font-family: 'futura';
+}
+
+a {
+  transition: ease-out 0.5s;
+}
+nav {
+  padding: 50px;
+  background-color: relative;
+  text-align: center;
+  border-bottom: 5px relative;
+  border-width: 5px;
+}
+
+nav a:hover {
+    background-color: relative;
+  color: blue;
+ box-shadow: inset 0 0 0 5px relative;
+  transition: ease-out 0.5s;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  font-family: 'Futura';
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Nav {
+  display: flex;
+  position: relative;
+  padding: 5px; 
+}
+
+#side {
+		opacity: 1;
+		position: absolute;
+		left: 270px;
+		top: 350px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		transform: rotate(-90deg);
+		transform-origin: left;
+		overflow: visible;
+		width: 186px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		color: rgba(0,0,0,0.349);
+	}
+	#side1 {
+		opacity: 1;
+		position: absolute;
+		left: 270px;
+		top: 550px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		transform: rotate(-90deg);
+		transform-origin: left;
+		overflow: visible;
+		width: 239px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		color: rgba(0,0,0,0.349);
+	}
+	#side2 {
+		opacity: 1;
+		position: absolute;
+		left: 270px;
+		top: 750px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		transform: rotate(-90deg);
+		transform-origin: left;
+		overflow: visible;
+		width: 186px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		color: rgba(0,0,0,0.349);
+	}
+	#side3 {
+		opacity: 1;
+		position: absolute;
+		left: 270px;
+		top: 950px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		transform: rotate(-90deg);
+		transform-origin: left;
+		overflow: visible;
+		width: 186px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		color: rgba(0,0,0,0.349);
+	}
+#side4 {
+		opacity: 1;
+		position: absolute;
+		left: 270px;
+		top: 1150px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		transform: rotate(-90deg);
+		transform-origin: left;
+		overflow: visible;
+		width: 186px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		color: rgba(0,0,0,0.349);
+	}
+#side5 {
+		opacity: 1;
+		position: absolute;
+		left: 270px;
+		top: 1350px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		transform: rotate(-90deg);
+		transform-origin: left;
+		overflow: visible;
+		width: 186px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		color: rgba(0,0,0,0.349);
+	}
+#side6 {
+		opacity: 1;
+		position: absolute;
+		left: 270px;
+		top: 1550px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		transform: rotate(-90deg);
+		transform-origin: left;
+		overflow: visible;
+		width: 186px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		color: rgba(0,0,0,0.349);
+	}
+
+#background {
+		opacity: 1;
+		fill: rgba(237,220,219,1);
+		stroke: rgba(0, 0, 0, 0);
+		stroke-width: 3px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+
+	.background {
+		position: absolute;
+		overflow: visible;
+		width: 888px;
+		height: 1258px;
+		left: 310px;
+		top: 230px;
+	}
+
+#Rectangle {
+		opacity: 1;
+		fill: transparent;
+		stroke: rgb(0, 0, 0);
+		stroke-width: 2px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle {
+		position: absolute;
+		overflow: visible;
+		width: 250px;
+		height: 300px;
+		left: 345px;
+		top: 300px;
+	}
+
+.monroe img {
+  position: absolute;
+	overflow: visible;
+  left: 345px;
+	top: 300px;
+}
+
+#info {
+		opacity: 1;
+		position: absolute;
+		left: 670px;
+		top: 470px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 310px;
+		height: 300px;
+		line-height: 40px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: gray;
+	}
+
+#title {
+		opacity: 1;
+		position: absolute;
+		left: 670px;
+		top: 300px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 310px;
+		height: 300px;
+		line-height: 40px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: 20px;
+		font-size: 19px;
+		color: black;
+	}
+
+#Biolong {
+		opacity: 1;
+		position: absolute;
+		left: 345px;
+		top: 692px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width: 817px;
+		height: 453px;
+		line-height: 35px;
+		margin-top: -6.5px;
+		text-align: left;
+		font-family: Futura;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 17px;
+		color: rgba(0,0,0,1);
+	}
